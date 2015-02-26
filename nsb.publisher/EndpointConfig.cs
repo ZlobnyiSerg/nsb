@@ -17,7 +17,7 @@ namespace nsb.publisher
             config.UsePersistence<NHibernatePersistence, StorageType.Subscriptions>();
             config.UsePersistence<NHibernatePersistence, StorageType.Timeouts>();
             config.UsePersistence<NHibernatePersistence, StorageType.Outbox>();
-	    }
-
+            config.ScaleOut().UseSingleBrokerQueue();            
+        }
 	}
 }

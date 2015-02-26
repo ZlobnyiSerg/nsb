@@ -19,7 +19,7 @@ namespace nsb.publisher
                 Console.WriteLine("==========================================================================");
                 Console.WriteLine("Send a new PlaceOrderCommand message with id: {0}", id.ToString("N"));
                 
-                Bus.Send(new TestMessage(id));
+                Bus.Publish(new TestMessage(id));
             }
         }
 
