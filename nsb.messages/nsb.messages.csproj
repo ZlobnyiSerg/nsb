@@ -42,9 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OrderPlacedMessage.cs" />
-    <Compile Include="PlaceOrderCommand.cs" />
-    <Compile Include="PlaceOrderResponse.cs" />
+    <Compile Include="TestMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

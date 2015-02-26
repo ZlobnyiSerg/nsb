@@ -7,8 +7,8 @@
     <ProjectGuid>{3FECDFEC-CFB2-41F5-9DC9-9BA603C9617C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>nsb</RootNamespace>
-    <AssemblyName>nsb</AssemblyName>
+    <RootNamespace>nsb.publisher</RootNamespace>
+    <AssemblyName>nsb.publisher</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -67,7 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EndpointConfig.cs" />
-    <Compile Include="PlaceOrderHandler.cs" />
+    <Compile Include="MessageSender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

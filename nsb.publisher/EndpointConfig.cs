@@ -1,13 +1,9 @@
-
-using System.Transactions;
+using NServiceBus;
 using NServiceBus.Persistence;
-using NServiceBus.Persistence.NHibernate;
 
-namespace nsb
+namespace nsb.publisher
 {
-    using NServiceBus;
-
-	/*
+    /*
 		This class configures this endpoint as a Server. More information about how to configure the NServiceBus host
 		can be found here: http://particular.net/articles/the-nservicebus-host
 	*/
